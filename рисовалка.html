@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="рисовалка.css">
+</head>
+<body onload="draw()">
+</body>
+     <canvas id="tutorial" width="450" height="450"></canvas>
+<script>
+    function draw() {
+        var canvas = document.getElementById("tutorial");
+        if (canvas.getContext) {
+            var stx = canvas.getContext("2d");
+
+            ctx.fillRect(25,25,400,400)
+        }
+    }
+
+</script>
+
+</html>
